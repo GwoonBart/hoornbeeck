@@ -1,7 +1,70 @@
+body, html {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    background-image: url(Hoornbeeck-College-Rotterdam-vooraanzicht-hele-gebouw.jpg);
+    background-size: cover; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
 header {
-    text-align: right; /* Uitlijnen van de tekst naar rechts */
+    background-color: #009898;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+h1 {
+    margin: 0; 
 }
 
 img {
-    height: 50px; /* Pas de hoogte van het logo aan */
+    height: 100px;
+}
+
+.container {
+    display: flex; 
+    flex: 1; 
+    margin: 0;}
+
+
+.sidebar {
+    background-color: #841c74;
+    color: white;
+    width: 200px;
+    height: auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.main-content {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+    margin-right: -200px; 
+}
+
+
+footer {
+    background-color: #841c74;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
 }
